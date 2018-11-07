@@ -6,7 +6,7 @@ grid
 hold
 plot([pi/4 pi/4],[0 3],"r")
 plot([pi/3 pi/3],[0 3],'r')
-ylabel('Magnitude')
+ylabel('BitCoin')
 subplot(212)
 plot(w,angle(H))
 grid
