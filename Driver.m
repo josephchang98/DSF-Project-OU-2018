@@ -1,1 +1,2 @@
-ExceltoGraph
+[num, text] = ExceltoGraph('Bitcoin.xlsx');
+
