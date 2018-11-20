@@ -1,3 +1,5 @@
+%function Filtered(in) 
+
 Array=num;
 Price = Array(:, 1);
 title('Graph');
