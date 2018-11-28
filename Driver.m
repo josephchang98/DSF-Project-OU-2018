@@ -1,5 +1,5 @@
 % checks if data has been loaded or not
-hasRun = exist('single','var');
+hasRun = exist('num', 'var');
 if hasRun == 0
     disp('Importing data...');
     [num, text] = ExceltoGraph('Bitcoin.xlsx');
@@ -19,8 +19,6 @@ plot(days,num)
 title('Recorded Prices'); grid on;
 ylabel('Prices');
 xlabel('Dates');    xlim([0 3034]);
-% change formatting for time/date so that all range is correct
-% set(gca,'xticklabel', text.')
 
 % calls filtered function
 [avg] = Filtered(num);
