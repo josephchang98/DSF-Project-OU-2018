@@ -1,4 +1,5 @@
 % checks if data has been loaded or not
+% given by TA Matt
 hasRun = exist('num', 'var');
 if hasRun == 0
     disp('Importing data...');
@@ -44,6 +45,7 @@ title('Recorded Data vs Averaged Data');
 legend('Recorded Data','Averaged Data');
 
 % used Curve Fitting Toolkit to find values
+% given by TA Matt
 % Fitted curve data for averaged prices:
 a = 4729;       b = -0.035360;  % Parameter Set 1
 c = 9314;       d = -0.001324;  % Parameter Set 2
